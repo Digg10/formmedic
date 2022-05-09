@@ -1,0 +1,82 @@
+
+<form>
+  <div class="container">
+    <p>Datos médicos</p>
+    <div class="form-group row">
+      <label for="peso" class="col-sm-3 col-form-label">Peso:</label>
+      <div class="col-sm-9">
+        <input type="text" class="form-control" id="peso" placeholder="Peso" required>
+        
+      </div>
+    </div>
+    <div class="form-group row">
+      <label for="estatura" class="col-sm-3 col-form-label">Estatura:</label>
+      <div class="col-sm-9">
+        <input type="text" class="form-control" id="estatura" placeholder="Estatura" required>
+      </div>
+    </div>
+    <div class="form-group row">
+      <label for="tipodesangre" class="col-sm-3 col-form-label">Tipo de sangre:</label>
+      <div class="col-sm-9">
+        <input type="text" class="form-control" id="tipodesangre" placeholder="Tipo de sangre" required>
+      </div>
+    </div>
+    <br/>
+    <p>Afiliación Médica</p>
+    <div class="form-group row">
+      <label for="seguro" class="col-sm-3 col-form-label">Seguro Social:</label>
+      <div class="col-sm-9">
+        <input type="text" class="form-control" id="seguro" placeholder="Seguro Social" required>
+      </div>
+    </div>
+    <div class="form-group row">
+      <label for="fechaalta" class="col-sm-3 col-form-label">Fecha de alta:</label>
+        <div class="col-sm-1">
+        <input type="date" name="fechaal" min="2020-08-21" max="2024-08-21" required/>
+            <span class="validity"></span>
+        </div>    
+    </div>
+    <div class="form-group row">
+      <label for="fechabaja" class="col-sm-3 col-form-label">Fecha de baja:</label>
+        <div class="col-sm-1">
+        <input type="date" name="fechabaja"min="2020-08-21" max="2024-08-21" required/>
+            <span class="validity"></span>
+        </div>    
+    </div>
+    <br/>
+    <p>Integridad Física</p>
+    <div class="form-group row">
+      <label for="enfermedades" class="col-sm-3 col-form-label">¿Padece enfermedades?</label>
+      <div class="col-sm-9">
+        <input type="text" class="form-control" id="enfermedades" placeholder="¿Padece enfermedades?" required>
+      </div>
+    </div>
+    <div class="form-group row">
+      <label for="problemasfisicos" class="col-sm-3 col-form-label">¿Tiene problemas físicos?</label>
+      <div class="col-sm-9">
+        <input type="text" class="form-control" id="problemasfisicos" placeholder="¿Tiene problemas físicos?" required>
+      </div>
+    </div>
+    <div class="form-group row">
+      <label for="pieplano" class="col-sm-3 col-form-label">¿Tiene pie plano?</label>
+      <div class="col-sm-9">
+        <input type="text" class="form-control" id="pie plano" placeholder="¿Tiene pie plano?" required>
+      </div>
+    </div>
+    <div class="form-group row">
+      <label for="alergias" class="col-sm-3 col-form-label">¿Tiene alergias?</label>
+      <div class="col-sm-9">
+        <input type="text" class="form-control" id="alergias" placeholder="¿Tiene alergias?" required>
+      </div>
+    </div>
+    <div class="form-group row">
+      <label for="describirenfermedad" class="col-sm-3 col-form-label">Describa su enfermedad:</label>
+      <div class="col-sm-9">
+        <textarea class="form-control" id="describirenfermedad" rows="3" placeholder="Describa su enfermedad" required></textarea>
+      </div>
+    </div>
+    <br/>
+    <button type="submit" class="btn btn-primary">Modificar datos</button>
+    
+  </div>
+</form>
